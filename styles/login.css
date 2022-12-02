@@ -63,7 +63,7 @@ body {
     margin-top: 1.5em;
 }
 
-.login-button:hover, .login-button-register:hover {
+.login-button:hover, .login-button-register:hover, #register-button:hover {
     transform: scale(1.2);
 }
 
@@ -109,4 +109,5 @@ body {
     margin-top: 1.5em;
     font-size: .8em;
     margin-bottom: 1.5em;
+    transition: transform .4s;
   }
