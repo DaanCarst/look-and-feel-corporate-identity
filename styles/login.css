@@ -111,3 +111,7 @@ body {
     margin-bottom: 1.5em;
     transition: transform .4s;
   }
+
+  [type="text"]:checked {
+    background-color: red;
+  }
